@@ -7,11 +7,19 @@
     "box_color": "#47B5FF",
     "picture": "pic_accepted_req"
   },
-    "reject_req": {
+    "reject_req_payment_success": {
     "subject": "Your request has been rejected!",
     "title": "Someone rejected your request!",
     "content": "It looks like someone has just rejected your request to join a ride. You can check the details on our website.",
-    "message": "We regret to inform you that your request to join a ride has been rejected. Don't worry, it sometimes happens. We hope that your next requests will be more successful and wish you the best future journeys.",
+    "message": "We regret to inform you that your request to join a ride has been rejected. Don't worry, it sometimes happens. The fee you've paid upon requesting to join the ride will be refunded. Do not hesitate to contact us if you don't receive the refund during the next 7 days. We hope that your next requests will be more successful and wish you the best future journeys.",
+    "box_color": "#FF5151",
+    "picture": "pic_rejected_req"
+  },
+  "reject_req_payment_fail": {
+    "subject": "Your request has been rejected!",
+    "title": "Someone rejected your request!",
+    "content": "It looks like someone has just rejected your request to join a ride. You can check the details on our website.",
+    "message": "We regret to inform you that your request to join a ride has been rejected. Don't worry, it sometimes happens. We have refunded the ride fee you paid upon requesting to join the ride. We hope that your next requests will be more successful and wish you the best future journeys.",
     "box_color": "#FF5151",
     "picture": "pic_rejected_req"
   },
@@ -27,15 +35,23 @@
     "subject": "Your ride was edited!",
     "title": "There are changes in your ride!",
     "content": "It looks like the driver has changed some info about the ride you joined. You can check the details on our website.",
-    "message": "The details of the ride You joined were edited by the driver. You can check what changed on our website. Don't worry basic info stayed the same. Please remember that if new details don't suit you, you can resign from participation in the ride. We wish you the best journey.",
+    "message": "The details of the ride you joined were edited by the driver. You can check what changed on our website. Don't worry basic info stayed the same. Please remember that if new details don't suit you, you can resign from participation in the ride. We wish you the best journey.",
     "box_color": "#47B5FF",
     "picture": "pic_edit_info"
   },
-   "cancel_info": {
+   "cancel_info_payment_success": {
     "subject": "Your ride was cancelled!",
     "title": "Your ride was canceled!",
     "content": "It looks like the driver has cancelled the ride you joined. You can check the details on our website.",
-    "message": "Unfortunately the driver cancelled the ride you joined. It does happen sometimes, remember that drivers are only people. We invite you to find a new ride on our website. We hope you enjoy your next rides without problems and wish you the best future journeys.",
+    "message": "Unfortunately the driver cancelled the ride you joined. It does happen sometimes, remember that drivers are only people. We have refunded the ride fee you've paid upon requesting to join the ride. We invite you to find a new ride on our website. We hope you enjoy your next rides without problems and wish you the best future journeys.",
+    "box_color": "#FF5151",
+    "picture": "pic_ride_canceled_info"
+  },
+  "cancel_info_payment_fail": {
+    "subject": "Your ride was cancelled!",
+    "title": "Your ride was canceled!",
+    "content": "It looks like the driver has cancelled the ride you joined. You can check the details on our website.",
+    "message": "Unfortunately the driver cancelled the ride you joined. It does happen sometimes, remember that drivers are only people. The fee you've paid upon requesting to join the ride will be refunded. Do not hesitate to contact us if you don't receive the refund during the next 7 days. We invite you to find a new ride on our website. We hope you enjoy your next rides without problems and wish you the best future journeys.",
     "box_color": "#FF5151",
     "picture": "pic_ride_canceled_info"
   },
@@ -46,5 +62,37 @@
     "message": "Someone has just requested to join your ride and waits for your answer. Please visit our website and accepted or reject the request. Remember, precise and quick communication is the key to good atmosphere on TraWell. We wish you the best journey.",
     "box_color": "#FF5151",
     "picture": "pic_passenger_resigned_info"
+  },
+  "join_ride_payment_success": {
+    "subject": "Ride joined!",
+    "title": "You've requested to join a ride!",
+    "content": "It looks like you've just requested to join a ride. You can check the details on our website.",
+    "message": "You've requested to join a ride and you've been charged the ride fee. Please wait patiently for the driver to review your request. If the driver rejects your request, the ride fee will be refunded to your account. We wish you the best journey.",
+    "box_color": "#47B5FF",
+    "picture": "pic_payment_success"
+  },
+  "join_ride_payment_failed": {
+    "subject": "Request to join ride failed!",
+    "title": "Unfortunately, your request to join a ride has failed!",
+    "content": "It looks like your request to join a ride has failed due to payment issues. You can check the details on our website.",
+    "message": "You've requested to join a ride, but there's been a problem with the payment. The join request has not been sent to the driver. Please try again or join a different ride. We hope you enjoy your next rides without problems and wish you the best future journeys.",
+    "box_color": "#FF5151",
+    "picture": "pic_payment_fail"
+  },
+  "resign_payment_success": {
+    "subject": "You've resigned from a ride!",
+    "title": "You have successfully resigned from a ride!",
+    "content": "It looks like you've just resigned from participation in a future ride. You can check the details on our website.",
+    "message": "You've successfuly resigned from participation in a future ride. We have refunded the ride fee you've paid upon requesting to join the ride. We're sorry to see you go and wish you the best future journeys.",
+    "box_color": "#47B5FF",
+    "picture": "pic_payment_success"
+  },
+  "resign_info": {
+    "subject": "You've resigned from a ride!",
+    "title": "You have successfully resigned from a ridee!",
+    "content": "It looks like you've just resigned from participation in a future ride. You can check the details on our website.",
+    "message": "You've successfuly resigned from participation in a future ride. The fee you've paid upon requesting to join the ride will be refunded. Do not hesitate to contact us if you don't receive the refund during the next 7 days. We're sorry to see you go and wish you the best future journeys.",
+    "box_color": "#FF5151",
+    "picture": "pic_payment_fail"
   }
 }
